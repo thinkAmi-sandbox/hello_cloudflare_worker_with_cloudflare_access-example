@@ -1,21 +1,11 @@
-```txt
-npm install
-npm run dev
-```
+# hello_cloudflare_worker_with_cloudflare_access-example
 
-```txt
-npm run deploy
-```
+## Tested Environment
 
-[For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
-
-```txt
-npm run cf-typegen
-```
-
-Pass the `CloudflareBindings` as generics when instantiation `Hono`:
-
-```ts
-// src/index.ts
-const app = new Hono<{ Bindings: CloudflareBindings }>()
-```
+- Hono 4.11.0
+- jose 6.1.3
+- Node.js 24.12.0
+- Cloudflare C3 2.59.0
+- Wrangler 4.54.0
+- Cloudflare Workers
+- Cloudflare Access
