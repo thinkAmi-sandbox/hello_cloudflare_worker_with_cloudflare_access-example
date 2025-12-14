@@ -9,3 +9,8 @@
 - Wrangler 4.54.0
 - Cloudflare Workers
 - Cloudflare Access
+
+
+## Related Blog (Written in Japanese)
+
+- [Cloudflare Workers + Hono なWebアプリに対し、Cloudflare Accessを使って特定のGoogleアカウントのみアクセス許可してみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2025/12/14/195352)
